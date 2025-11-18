@@ -13,3 +13,5 @@ print(email.startswith("mostafa"))  # Check if email starts with "mostafa"
 print(email.endswith("gmail.com"))  # Check if email ends with "gmail.com"
 print(email.find("@"))              # Find the index of "@" in the email
 print(email.index("@"))             # Get the index of the first "." in the email
+print("mostafa" in email)           # Check if "mostafa" is in the email
+print("yahoo" in email)             # Check if "yahoo" is in the
