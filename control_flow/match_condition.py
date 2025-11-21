@@ -1,12 +1,12 @@
 
-country_code = "CA"
+country_code = "MEX"
 
 match country_code:
-    case "US":
+    case "US"|"USA":
         print("United States")
-    case "CA":
+    case "CA"|"CAN":
         print("Canada")
-    case "MX":
+    case "MX"|"MEX":
         print("Mexico")
     case _:
         print("Unknown Country Code")
