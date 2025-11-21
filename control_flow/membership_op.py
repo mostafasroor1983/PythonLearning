@@ -1,3 +1,10 @@
 #Membership Operator Example
 print("a" in "apple")
 print("x" not in ["a", "b", "c"])
+print(3 in (1, 2, 3, 4, 5))
+print(10 not in {5, 10, 15})
+print("key" in {"key": "value", "another_key": "another_value"})
+print(100 not in range(50, 150))
+print("cat" in ["dog", "cat", "mouse"])
+print(0 in [1, 2, 3])
+print("hello" not in "hello world")
