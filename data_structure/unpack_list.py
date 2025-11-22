@@ -12,6 +12,7 @@ print(f"X: {x}")
 print(f"Y: {y}")
 print(f"Z: {z}")
 print("#"*50)
+
 data = ["Bob", 25, "Designer", "Los Angeles", "Extra Value"]
 name, age, profession, *extra = data
 print(f"Name: {name}")
