@@ -3,6 +3,8 @@ try:
     data = file.read()
 except FileNotFoundError:
     print("File not found")
+else:
+    print("Else")
 finally:
     # This always runs to clean up
     if 'file' in locals() and not file.closed:
