@@ -13,7 +13,9 @@ digits = {
 
 output = ''
 while True:
-    phone = input("Enter your phone number: ")
+    phone = input("Enter your phone number or EXIT: ")
+    if phone.lower() == "exit":
+        break
     for ch in phone:
         if ch in digits:
             output += digits[ch] + " "
